@@ -1,4 +1,4 @@
-<?php namespace App\Events;
+<?php namespace SenConectBackend\Events;
 
 abstract class Event {
 

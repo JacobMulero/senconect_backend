@@ -139,11 +139,12 @@ return [
 		/*
 		 * Application Service Providers...
 		 */
-		'App\Providers\AppServiceProvider',
-		'App\Providers\BusServiceProvider',
-		'App\Providers\ConfigServiceProvider',
-		'App\Providers\EventServiceProvider',
-		'App\Providers\RouteServiceProvider',
+		'SenConectBackend\Providers\AppServiceProvider',
+		'SenConectBackend\Providers\BusServiceProvider',
+		'SenConectBackend\Providers\ConfigServiceProvider',
+		'SenConectBackend\Providers\EventServiceProvider',
+		'SenConectBackend\Providers\RouteServiceProvider',
+        'Zizaco\Entrust\EntrustServiceProvider'
 
 	],
 
@@ -192,6 +193,7 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
+        'Entrust' => 'Zizaco\Entrust\EntrustFacade'
 
 	],
 

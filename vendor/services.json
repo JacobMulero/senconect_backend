@@ -22,11 +22,12 @@
         "Illuminate\\Translation\\TranslationServiceProvider",
         "Illuminate\\Validation\\ValidationServiceProvider",
         "Illuminate\\View\\ViewServiceProvider",
-        "App\\Providers\\AppServiceProvider",
-        "App\\Providers\\BusServiceProvider",
-        "App\\Providers\\ConfigServiceProvider",
-        "App\\Providers\\EventServiceProvider",
-        "App\\Providers\\RouteServiceProvider"
+        "SenConectBackend\\Providers\\AppServiceProvider",
+        "SenConectBackend\\Providers\\BusServiceProvider",
+        "SenConectBackend\\Providers\\ConfigServiceProvider",
+        "SenConectBackend\\Providers\\EventServiceProvider",
+        "SenConectBackend\\Providers\\RouteServiceProvider",
+        "Zizaco\\Entrust\\EntrustServiceProvider"
     ],
     "eager": [
         "Illuminate\\Auth\\AuthServiceProvider",
@@ -40,11 +41,12 @@
         "Illuminate\\Session\\SessionServiceProvider",
         "Illuminate\\Validation\\ValidationServiceProvider",
         "Illuminate\\View\\ViewServiceProvider",
-        "App\\Providers\\AppServiceProvider",
-        "App\\Providers\\BusServiceProvider",
-        "App\\Providers\\ConfigServiceProvider",
-        "App\\Providers\\EventServiceProvider",
-        "App\\Providers\\RouteServiceProvider"
+        "SenConectBackend\\Providers\\AppServiceProvider",
+        "SenConectBackend\\Providers\\BusServiceProvider",
+        "SenConectBackend\\Providers\\ConfigServiceProvider",
+        "SenConectBackend\\Providers\\EventServiceProvider",
+        "SenConectBackend\\Providers\\RouteServiceProvider",
+        "Zizaco\\Entrust\\EntrustServiceProvider"
     ],
     "deferred": {
         "command.app.name": "Illuminate\\Foundation\\Providers\\ArtisanServiceProvider",
